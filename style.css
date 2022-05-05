@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*medidas plataformas*/
+@media only screen and (max-width: 450px){
+    .menu-secciones{
+        display: grid;
+        grid-template-columns: 1fr;}
+    .set-imagenes{
+        display: flex;
+        flex-wrap: nowrap;
+    }        
+    
+}   
+
+
+@media only screen and (min-width: 451px) and (max-width: 960px){
+    .menu-secciones{
+        display: grid;
+        grid-template-columns: 1fr;}
+    .set-imagenes{
+        display: flex;
+        flex-wrap: nowrap;
+    }  
+}
+/*menu*/
+header{
+ background-color: #7599AB;
+ padding: 15px 0px 15px 0px;
+ border-top:solid 5px #376D87;
+ border-right:solid 5px #376D87;
+ border-bottom:solid 5px #376D87;
+ border-left:solid 5px #376D87;
+}
+ul{
+    list-style: none;
+    display: flex; flex-direction: row; justify-content: space-around;
+}
+ul li{
+    display: inline;
+}
+/*body index*/
+.cartel-principal{
+    width: 100%;
+}
+.cartel-1{
+    width: 33%;
+}
+.cartel-2{
+    width: 33%;
+}
+.cartel-3{
+    width: 33%;
+}
+/*footer index*/
+footer{
+    background-color: #7599AB;
+    border-top:solid 5px #376D87;
+    border-right:solid 5px #376D87;
+    border-bottom:solid 5px #376D87;
+    border-left:solid 5px #376D87;
+}
+.derechos{
+    font-size: 20px;
+}
+.contactanos{
+    font-size: 20px;
+}
+.datos-de-contacto{
+    font-size: 22px;
+}
+/*logos de contacto index*/
+.instagram-logo{
+    width: 40px;
+    height: 40px;
+}
+.youtube-logo{
+    width: 150px;
+    height: 140px;
+}
+.inframe{
+    width: 300px;
+    height: 200px;
+}
+/*seccion-deportes*/
+.contenido-deportes{
+    width: 500px;
+    height: 500px;
+}
+/*seccion-kit-de-pesas*/
+.contenido-kit1{
+    width: 500px;
+    height: 500px;
+}
+
+.contenido-kit2{
+        width: 500px;
+        height: 500px;
+}
+/*seccion-entrenamiento-funcional*/
+.contenido-funcional1{
+    width: 500px;
+    height: 500px;
+}
+.contenido-funcional2{
+    width: 500px;
+    height: 500px;
+}
